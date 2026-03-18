@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/sassscss.css" />
+  <!-- <script src="./js/snowfall.min.js"></script> -->
+  <title>Jonghoon_Fortpolio</title>
+
+  <!-- user -->
+  <link rel="shortcut icon" href="./images/homepage/logo.png" type="image/x-icon"> <!-- logo -->
+
+  <!-- css , js -->
+  <link rel="stylesheet" href="css/sassscss.css">
+  <script src="./js/main.js" defer></script>
+  <script src="./js/snowfall.min.js"></script>
+
+  <!-- font -->
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+
+  <!-- font_awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <!-- jq -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <aside class="fix_box">
+      <div class="fix_picture">
+        <img src="./images/profile/picture.png" alt="FIX_사진">
+      </div>
+      <p class="fix_name">
+        Jonghoon Lee
+      </p>
+      <div class="fix_sns">
+        <a href="#!"><img src="./images/github-black.png" alt="fix_github"></a>
+        <a href="#!"><img src="./images/instagram.png" alt="fix_insta"></a>
+        <a href="#!"><img src="./images/facebook.png" alt="fix_fb"></a>
+      </div>
+      <div class="fix_menu">
+        <div class="fix_intro" data-target="#intro">
+          <img src="./images/fix/snowflake.png" alt="fix_snow">
+          <p>Intro</p>
+        </div>
+        <div class="fix_about" data-target="#about">
+          <img src="./images/fix/user.png" alt="fix_user">
+          <p>About me</p>
+        </div>
+        <div class="fix_skill" data-target="#skill">
+          <img src="./images/fix/skill.png" alt="fix_skill">
+          <p>Skills</p>
+        </div>
+        <div class="fix_project" data-target="#project">
+          <img src="./images/fix/project.png" alt="fix_project">
+          <p>Project</p>
+        </div>
+        <div class="fix_contact" data-target="#contact">
+          <img src="./images/fix/paper-plane.png" alt="fix_contact">
+          <p>Contact</p>
+        </div>
+      </div>
+      <!-- fix_menu -->
+    </aside>
+    <!-- fix_box -->
+
+    <section class="intro_box" id="intro">
+      <img src="./images/12.png" alt="메인">
+      <div class="typing">
+        <p class="typing_text" id="dynamic">
+        </p>
+        <p class="typing_text02">
+          이종훈입니다
+        </p>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <h1 class="about_title title" id="about">
+        About me
+      </h1>
+      <section class="about_box">
+        <div class="picture">
+          <img src="./images/profile/picture.png" alt="프로필_사진">
+        </div>
+        <div class="profile">
+          <div class="profile_left">
+            <div class="info">
+              <img src="./images/user_white.png" alt="프로필_유저">
+              <p>이종훈</p>
+            </div>
+            <div class="info">
+              <img src="./images/placeholder.png" alt="프로필_사는 곳">
+              <p>부산광역시 남구</p>
+            </div>
+            <div class="info">
+              <img src="./images/smartphone.png" alt="프로필_휴대전화">
+              <p>010.4063.2876</p>
+            </div>
+            <div class="info">
+              <img src="./images/career.png" alt="프로필_경력">
+              <p>신입</p>
+            </div>
+          </div>
+          <div class="profile_right">
+            <div class="info">
+              <img src="./images/schedule.png" alt="프로필_DOB">
+              <p>98.06.04</p>
+            </div>
+            <div class="info">
+              <img src="./images/email.png" alt="프로필_이메일">
+              <p>hoony6582@gmail.com</p>
+            </div>
+            <div class="info">
+              <img src="./images/github_white.png" alt="프로필_깃허브">
+              <p>깃허브주소</p>
+            </div>
+            <div class="info">
+              <img src="./images/graduation.png" alt="프로필_학력">
+              <p>남산고등학교(졸업)</p>
+            </div>
+          </div>
+        </div>
+        <!-- profile -->
+      </section>
+      <!-- about_box -->
+
+      <p class="introduction">
+        직관적인 <strong>UI</strong>와 <strong>자연스러운 인터랙션</strong>을 통해
+        <strong>사용자 경험</strong>을 개선하는 프론트엔드 개발자 이종훈입니다. <br>
+        단순한 구현에 그치지 않고, <strong>사용자의 흐름</strong>과 <strong>사용성</strong>을 고려하여
+        더 완성도 높은 웹을 만드는 것을 목표로 합니다.
+      </p>
+
+      <h1 class="skill_title title" id="skill">
+        Skills
+      </h1>
+
+      <section class="skill_box">
+        <div class="skill">
+          <div class="skill_top">
+            <div class="icon">
+              <img src="./images/html.png" alt="스킬_html">
+            </div>
+            <p class="skill_name">
+              HTML/CSS3
+            </p>
+          </div>
+          <div class="skill_detail">
+            <div class="skill_list">
+              <p><span>●</span> Responsive</p>
+              <p><span>●</span> Cross-Browser</p>
+            </div>
+
+            <div class="skill_text">
+              <p><span class="skill_color01">◆</span> 웹 표준과 접근성을 고려한 시맨틱 마크업이 가능합니다</p>
+              <p><span class="skill_color01">◆</span> 크로스 브라우징을 고려한 구조 설계가 가능합니다.</p>
+              <p><span class="skill_color01">◆</span> SASS 문법에 익숙합니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_top">
+            <div class="icon">
+              <img src="./images/js.png" alt="스킬_js">
+            </div>
+            <p class="skill_name">
+              JavaScript
+            </p>
+          </div>
+          <div class="skill_detail">
+            <div class="skill_list">
+              <p><span>●</span> DOM</p>
+              <p><span>●</span> Interactive UI</p>
+            </div>
+
+            <div class="skill_text">
+              <p><span class="skill_color02">◆</span> ES6 문법을 활용한 모던 자바스크립트 작성이 가능합니다.</p>
+              <p><span class="skill_color02">◆</span> 이벤트 처리와 DOM 제어를 통해 동적인 UI를 구현합니다.</p>
+              <p><span class="skill_color02">◆</span> 사용자 인터랙션을 고려한 로직 구현이 가능합니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_top">
+            <div class="icon">
+              <img src="./images/jquery.png" alt="스킬_jQuery">
+            </div>
+            <p class="skill_name">
+              jQuery
+            </p>
+          </div>
+          <div class="skill_detail">
+            <div class="skill_list">
+              <p><span>●</span> Event Handling</p>
+              <p><span>●</span> jQuery Animation</p>
+            </div>
+
+            <div class="skill_text">
+              <p><span class="skill_color03">◆</span> 이벤트 핸들링과 DOM 조작에 익숙합니다.</p>
+              <p><span class="skill_color03">◆</span> jQuery를 활용한 애니메이션 및 인터랙션 구현이 가능합니다.</p>
+              <p><span class="skill_color03">◆</span> 플러그인 활용을 통한 UI 기능 구현 경험이 있습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_top">
+            <div class="icon">
+              <img src="./images/atom.png" alt="스킬_react">
+            </div>
+            <p class="skill_name">
+              React
+            </p>
+          </div>
+          <div class="skill_detail">
+            <div class="skill_list">
+              <p><span>●</span> React Hooks</p>
+              <p><span>●</span> Props & State</p>
+            </div>
+
+            <div class="skill_text">
+              <p><span class="skill_color04">◆</span> 컴포넌트 기반 구조 설계에 익숙합니다.</p>
+              <p><span class="skill_color04">◆</span> Props와 State를 활용한 데이터 흐름 관리가 가능합니다.</p>
+              <p><span class="skill_color04">◆</span> 재사용 가능한 UI 컴포넌트 개발 경험이 있습니다.</p>
+              <p><span class="skill_color04">◆</span> SPA 기반 동적 화면 구성이 가능합니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_top">
+            <div class="icon">
+              <img src="./images/mysql.png" alt="스킬_MySQL">
+            </div>
+            <p class="skill_name">
+              MySQL
+            </p>
+          </div>
+          <div class="skill_detail">
+            <div class="skill_list">
+              <p><span>●</span> Data Management</p>
+              <p><span>●</span> CRUD Query</p>
+            </div>
+
+            <div class="skill_text">
+              <p><span class="skill_color05">◆</span> 데이터베이스 설계 및 테이블 구조 이해가 가능합니다.</p>
+              <p><span class="skill_color05">◆</span> SELECT, JOIN, GROUP BY 등을 활용한 데이터 조회가 가능합니다.</p>
+              <p><span class="skill_color05">◆</span> CRUD 기반 데이터 처리 경험이 있습니다.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_top">
+            <div class="icon">
+              <img src="./images/photoshop.png" alt="스킬_PS">
+            </div>
+            <p class="skill_name">
+              PhotoShop
+            </p>
+          </div>
+          <div class="skill_detail">
+            <div class="skill_list">
+              <p><span>●</span> Image Editing</p>
+              <p><span>●</span> Image Optimization</p>
+            </div>
+
+            <div class="skill_text">
+              <p><span class="skill_color06">◆</span> Photoshop에 내장된 다양한 툴을 활용해 이미지 편집 작업이 가능합니다.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skill_box -->
+
+      <h1 class="project_title title" id="project">
+        Project
+      </h1>
+      <section class="project_box">
+        <div class="project" data-title="펫 용품 쇼핑몰" data-icon="./images/modal/pet.png" data-video="./video/pet_shopping.mp4"
+          data-site="#" data-github="#"
+          data-desc="반려동물 용품을 판매하는 쇼핑몰 웹사이트로, HTML, CSS, JavaScript, jQuery를 활용해 프론트엔드 구조와 UI를 구현했습니다. 회원가입 시 주소 입력 편의를 위해 다음 주소 API를 연동했고, 사용자가 직관적으로 상품을 탐색할 수 있도록 다양한 인터랙션을 적용했습니다. 실제 쇼핑몰 흐름을 체험할 수 있는 형태로 설계하였습니다."
+          data-member="개인 프로젝트" data-plan="2025.10.20 ~ 2025.10.31" data-code="2025.11.03 ~ 2025.11.21"
+          data-skill1="./images/html.png" data-skill2="./images/js.png" data-skill3="./images/jquery.png" data-skill4=""
+          data-feature1="Sticky 카테고리 메뉴" data-feature2="주소 찾기 API 사용" data-feature3="Swiper JS 사용"
+          data-feature4="주소 찾기 API 사용"
+          data-problem1="좌측 Sticky 카테고리 메뉴에 마우스를 올리면 아이콘 이미지가 흰색 버전으로 변경되는 hover 기능을 구현하였는데, hover 시 이미지가 순간적으로 깜빡이거나 부드럽지 않게 전환되는 문제가 발생하였습니다. 문제 원인을 찾아본 결과, 이미지 src를 직접 교체하는 방식으로 처리할 경우 브라우저가 이미지를 다시 로딩하면서 깜빡임이 발생할 수 있었습니다. "
+          data-solution1="이미지를 교체하는 대신 opacity 기반 transition을 적용하여 자연스럽게 전환되도록 개선하였습니다. 또한 will-change: opacity 속성을 사용하여 브라우저 렌더링 성능을 최적화하였습니다."
+          data-problem2="정렬 옵션을 radio + label 구조로 구현하였는데, 일부 환경에서 label 클릭 시 radio change 이벤트가 정상적으로 발생하지 않아 정렬이 동작하지 않는 문제가 발생하였습니다."
+          data-solution2="label 클릭 시 직접 input을 체크하고 change 이벤트를 강제로 발생시키도록 처리하여, 모든 환경에서 label 클릭만으로도 안정적으로 정렬 기능이 동작하도록 개선하였습니다."
+          data-problem3="상품 데이터를 HTML의 data-* 속성으로 관리하고 이를 기준으로 정렬 기능을 구현하였는데, dataset으로 가져온 값이 문자열(string)로 처리되어 숫자 정렬이 정상적으로 동작하지 않는 문제가 발생하였습니다."
+          data-solution3="공통 변환 함수 toNum()을 만들어 모든 정렬에서 숫자로 변환하도록 처리하였습니다."
+          data-review="UI 인터랙션과 상태 관리, 데이터 처리 과정에서 발생하는 문제를 직접 해결하며 사용자 경험과 코드 구조화의 중요성을 체감했습니다.">
+          <div class="project_img">
+            <img src="./images/homepage/shopingmall.png" alt="쇼핑몰">
+            <div class="project_overlay">
+              <span>View Project</span>
+            </div>
+          </div>
+          <p class="project_title">
+            펫 용품 쇼핑몰
+          </p>
+          <p class="project_period">
+            2025.10 ~ 2025.11
+            <span class="project_type">
+              개인 프로젝트
+            </span>
+          </p>
+          <div class="project_link">
+            <p class="project_site">
+              <a href="#!">사이트 바로가기</a>
+            </p>
+            <div class="project_github">
+              <a href="#!">GitHub</a>
+            </div>
+          </div>
+          <div class="project_skills">
+            <img src="./images/html.png" alt="mall_html">
+            <img src="./images/js.png" alt="mall_js">
+            <img src="./images/jquery.png" alt="mall_jq">
+          </div>
+        </div>
+
+        <div class="project" data-title="멜론 리뉴얼(반응형)" data-icon="./images/modal/melon.png" data-video="./video/melon_responsive.mp4"
+          data-site="#" data-github="#"
+          data-desc="기존 멜론 웹사이트를 기반으로 UI/UX를 개선하고 다양한 디바이스 환경에 대응할 수 있도록 반응형으로 리뉴얼한 프로젝트입니다. PC, 태블릿, 모바일 환경에서도 일관된 사용자 경험을 제공할 수 있도록 레이아웃과 인터페이스를 재구성했습니다. 사용자 편의성과 가독성을 고려한 디자인과 인터랙션 구현에 중점을 두었습니다"
+          data-member="팀 프로젝트" data-plan="2025.12.12 ~ 2025.12.31" data-code="2026.01.05 ~ 2026.01.23"
+          data-skill1="./images/html.png" data-skill2="./images/js.png" data-skill3="./images/jquery.png"
+          data-skill4="./images/sass.png" data-feature1="플레이리스트 볼륨 막대" data-feature2="실시간 차트 높이 변화"
+          data-feature3="앨범 비하인드 정렬 기능" data-feature4="태블릿에서만 보이는 배너"
+          data-problem1="에디터 영역(.ed_main_wrap)에서 세로 스크롤을 가로 이동으로 변환하는 인터랙션을 구현하는 과정에서, 모바일 환경에서는 터치 기반 스크롤과 충돌하여 사용자 경험이 저하되는 문제가 발생했습니다."
+          data-solution1="------- const isPC = window.matchMedia('(min-width: 1024px)').matches; if (!isPC) return; ------- 디바이스 환경을 분기 처리하여 PC와 모바일에 최적화된 스크롤 인터랙션을 구현했습니다."
+          data-problem2="여러 곡을 연속으로 재생할 경우, 이전 곡의 재생 상태(UI)가 유지되면서 현재 재생 상태와 충돌하는 문제가 발생했습니다."
+          data-solution2="------- if (currentBtn) {currentBtn.querySelector('i') .classList.replace('fa-pause', 'fa-play');} ------- 이전 재생 상태를 초기화하여 단일 오디오 재생 구조를 유지하고 UI 일관성을 확보했습니다."
+          data-problem3="모바일 햄버거 메뉴를 열고 닫을 때, 메뉴와 오버레이 상태가 동기화되지 않거나 배경 스크롤이 그대로 가능해 UX가 불편했습니다."
+          data-solution3="햄버거 버튼 클릭과 오버레이 클릭 모두에서 메뉴, 오버레이, 버튼 상태를 active 클래스로 통합 관리하고, 메뉴 오픈 시 body 스크롤을 막도록 처리하여 모든 환경에서 일관된 UX를 구현했습니다."
+          data-review="다양한 UI/UX 인터랙션을 구현하며 브라우저 환경과 디바이스 차이를 고려한 안정적인 기능 설계 경험을 쌓았습니다.">
+          <div class="project_img">
+            <img src="./images/homepage/teample.png" alt="팀플_멜론">
+            <div class="project_overlay">
+              <span>View Project</span>
+            </div>
+          </div>
+          <p class="project_title">
+            멜론 리뉴얼 (반응형)
+          </p>
+          <p class="project_period">
+            2025.12 ~ 2026.01
+            <span class="project_type">
+              팀 프로젝트
+            </span>
+          </p>
+          <div class="project_link">
+            <p class="project_site">
+              <a href="#!">사이트 바로가기</a>
+            </p>
+            <div class="project_github">
+              <a href="#!">GitHub</a>
+            </div>
+          </div>
+          <div class="project_skills">
+            <img src="./images/html.png" alt="melon_html">
+            <img src="./images/js.png" alt="melon_js">
+            <img src="./images/jquery.png" alt="melon_jq">
+            <img src="./images/sass.png" alt="melon_sass">
+          </div>
+        </div>
+
+        <div class="project" data-title="리액트 기초 다지기" data-icon="./images/modal/react.png" data-video="./video/react_basic.mp4"
+          data-site="#" data-github="#"
+          data-desc="초기에는 React Router와 동적 라우팅을 학습하기 전 단계에서 브랜드별로 Nike, Adidas, Star 컴포넌트를 각각 분리해 라우팅을 구성했습니다. 이 과정에서 동일한 UI 구조와 로직이 반복되는 비효율적인 코드가 발생했고,유지보수 측면에서도 한계를 느끼게 되었습니다. 이후 React에 대해 더 학습하며 useParams를 활용한 동적 라우팅 방식을 적용하게 되었고, URL 파라미터를 기반으로 데이터를 필터링하도록 구조를 개선했습니다. 그 결과, BrandPage 단일 컴포넌트로 모든 브랜드 페이지를 통합하여 코드 중복을 제거하고, 재사용성과 확장성을 고려한 구조로 리팩토링할 수 있었습니다."
+          data-member="개인 프로젝트" data-plan="2026.01.29 ~ 2026.01.29" data-code="2026.01.30 ~ 2026.02.02"
+          data-skill1="./images/html.png" data-skill2="./images/js.png" data-skill3="./images/atom.png"
+          data-feature1="동적 라우팅 기반 브랜드 페이지" data-feature2="공통 컴포넌트 재사용" data-feature3="모달 & UI 상태 관리" data-feature4=""
+          data-problem1="장바구니에 상품을 추가하면 정상적으로 표시되지만, 새로고침 시 데이터가 사라지고 메모리 상에서만 상태가 유지되었습니다."
+          data-solution1="장바구니 상태를 브라우저에 저장하여, 페이지를 새로고침해도 이전에 담은 상품이 유지되도록 구현하여 사용자 경험을 개선했습니다."
+          data-problem2="동일한 상품이 여러 번 장바구니에 담길 때 중복 데이터가 생성되었습니다."
+          data-solution2="장바구니에 동일한 상품이 이미 있는지 확인하고, 존재할 경우 수량을 증가시키도록 로직을 구현했습니다. ---- const exist = prev.find(p => p.id === item.id);"
+          data-problem3="상품명 길이에 따라 가격 위치가 들쭉날쭉하게 표시되는 문제가 있었습니다."
+          data-solution3="상품명과 가격을 flex 컨테이너 안에서 수직으로 정렬하고, 가격 요소에 고정된 margin과 align-self를 적용하여 길이에 상관없이 가격이 일정한 위치에 표시되도록 레이아웃 구조를 조정했습니다."
+          data-review="장바구니 기능을 구현하며 상태 관리와 UI 동기화의 중요성을 다시 체감했으며, React의 동적 라우팅과 공통 컴포넌트 재사용을 적용하면서 유지보수성과 확장성을 고려한 설계 경험을 얻을 수 있었습니다.">
+          <div class="project_img">
+            <img src="./images/homepage/react_basic.png" alt="리액트_기본">
+            <div class="project_overlay">
+              <span>View Project</span>
+            </div>
+          </div>
+          <p class="project_title">
+            리액트 기초 다지기
+          </p>
+          <p class="project_period">
+            2026.01 ~ 2026.02
+            <span class="project_type">
+              개인 프로젝트
+            </span>
+          </p>
+          <div class="project_link">
+            <p class="project_site">
+              <a href="#!">사이트 바로가기</a>
+            </p>
+            <div class="project_github">
+              <a href="#!">GitHub</a>
+            </div>
+          </div>
+          <div class="project_skills">
+            <img src="./images/html.png" alt="react_html">
+            <img src="./images/js.png" alt="react_js">
+            <img src="./images/atom.png" alt="react_react">
+          </div>
+        </div>
+
+        <div class="project" data-title="나의 포트폴리오" data-icon="./images/modal/shooting-star.png"
+          data-video="./video/portfolio.mp4" data-site="#" data-github="#"
+          data-desc="개인 프로젝트와 기술 역량을 소개하기 위해 제작한 웹사이트로, HTML, CSS, JavaScript를 활용해 레이아웃과 인터랙션을 구성했습니다."
+          data-member="개인 프로젝트" data-plan="2026.02.27 ~ 진행중" data-code="2026.03.07 ~ 진행중"
+          data-skill1="./images/html.png" data-skill2="./images/js.png" data-skill3="./images/atom.png"
+          data-feature1="스크롤 기반 애니메이션 (GSAP)" data-feature2="모달 & 프로젝트 상세보기" data-feature3="Sticky 네비게이션 메뉴"
+          data-feature4="타이핑 애니메이션"
+          data-problem1="프로젝트 Section에서, 첫 번째 프로젝트만 사이트 진입 혹은 새로고침 시 레이아웃이 튀어나오고, 나머지 프로젝트들은 stagger 애니메이션이 스크롤에 맞춰 늦게 적용되어 불안정한 UI를 보여주었습니다."
+          data-solution1="각 .project 요소를 개별 ScrollTrigger로 지정하고, stagger 효과를 delay로 적용하여 모든 프로젝트가 스크롤 위치에 맞춰 자연스럽게 등장하도록 개선했습니다. 이로써 새로고침 시 레이아웃이 안정되고, 전체 프로젝트 애니메이션이 일관되게 동작하게 되었습니다."
+          data-problem2="스크롤 위치에 따라 현재 섹션을 표시하는 과정에서 활성화 타이밍이 부정확하거나 페이지 하단에서 메뉴가 정상적으로 동작하지 않는 문제가 발생했습니다."
+          data-solution2="scrollTop, windowHeight, documentHeight 값을 활용하여 각 섹션의 위치를 기준으로 active 상태를 제어하고, 페이지 최하단 도달 시 마지막 메뉴가 활성화되도록 예외 처리를 추가했습니다."
+          data-problem3="모달 창이 특정 상황에서 닫히지 않거나, 사용자 입장에서 닫기 방식이 제한적인 UX 문제가 있었습니다."
+          data-solution3="닫기 버튼, 배경 클릭, ESC 키 입력 등 다양한 종료 방식을 지원하고, 모달 활성화 시 body 스크롤을 제어하여 사용성을 개선했습니다."
+          data-review="이번 포트폴리오 사이트를 제작하며 HTML, CSS, JavaScript를 활용해 레이아웃과 인터랙션을 구현하면서, 동일한 애니메이션이나 기능을 반복 적용할 때 발생하는 코드 중복과 유지보수 문제를 직접 경험했습니다. 이를 개선하기 위해 공통 로직을 재사용 가능한 형태로 구조화하고, 스크롤과 섹션 활성화, 모달 UX 등 다양한 사용자 경험 측면을 고려하며 상태 관리와 이벤트 처리의 중요성을 다시 한 번 체감할 수 있었습니다. 또한 타이핑 애니메이션과 인터랙션 요소를 구현하면서, 사용자가 직관적으로 느낄 수 있는 동적인 화면 구성의 설계 경험을 쌓았고, 앞으로 더 큰 프로젝트에서도 재사용성과 확장성을 고려한 코드 구조 설계에 자신감을 가지게 되었습니다.">
+          <div class="project_img">
+            <img src="./images/homepage/teample.png" alt="팀플_멜론">
+            <div class="project_overlay">
+              <span>View Project</span>
+            </div>
+          </div>
+          <p class="project_title">
+            나의 포트폴리오
+          </p>
+          <p class="project_period">
+            2025.02 ~ 2025.03
+            <span class="project_type">
+              개인 프로젝트
+            </span>
+          </p>
+          <div class="project_link">
+            <p class="project_site">
+              <a href="#!">사이트 바로가기</a>
+            </p>
+            <div class="project_github">
+              <a href="#!">GitHub</a>
+            </div>
+          </div>
+          <div class="project_skills">
+            <img src="./images/html.png" alt="pp_html">
+            <img src="./images/js.png" alt="pp_js">
+            <img src="./images/jquery.png" alt="pp_jq">
+          </div>
+        </div>
+      </section>
+      <!-- project_box -->
+
+      <div class="modal_wrap">
+        <section class="modal">
+          <button class="modal_close"><i class="fa-regular fa-circle-xmark"></i></button>
+
+          <div class="modal_preview">
+            <video autoplay muted loop playsinline>
+              <source src="./video/쿠팡의 왼쪽UI 참고.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <h1 class="modal_title">
+            <img class="modal_icon" src="./images/modal/pet.png" alt="modal_pet">
+            <span class="modal_title_text"></span>
+          </h1>
+
+          <div class="modal_links">
+            <a class="modal_site" href="#">사이트 바로가기</a>
+            <a class="modal_github" href="#">GitHub 바로가기</a>
+          </div>
+
+          <div class="modal_section">
+            <div class="modal_info"><img src="./images/modal/description.png" alt="modal_desc">
+              <h3>Description</h3>
+            </div>
+            <p class="modal_desc">
+            </p>
+          </div>
+
+          <div class="modal_section">
+            <div class="modal_info">
+              <img src="./images/modal/group.png" alt="modal_group">
+              <h3>구성원</h3>
+            </div>
+            <p class="modal_member"></p>
+          </div>
+
+          <div class="modal_section">
+            <div class="modal_info"><img src="./images/modal/plan.png" alt="modal_plan">
+              <h3>기획 기간</h3>
+            </div>
+            <p class="modal_plan"></p>
+          </div>
+
+          <div class="modal_section">
+            <div class="modal_info"><img src="./images/modal/code.png" alt="modal_code">
+              <h3>구현 기간</h3>
+            </div>
+            <p class="modal_code"></p>
+          </div>
+
+          <div class="modal_section">
+            <div class="modal_info">
+              <img src="./images/modal/skill.png" alt="modal_skill">
+              <h3>Use skill</h3>
+            </div>
+            <div class="modal_skills">
+              <img class="skill1" src="">
+              <img class="skill2" src="">
+              <img class="skill3" src="">
+              <img class="skill4" src="">
+              <img class="skill5" src="">
+            </div>
+          </div>
+
+          <div class="modal_section">
+            <div class="modal_info">
+              <img src="./images/modal/star.png" alt="modal_star">
+              <h3>주요 기능</h3>
+            </div>
+            <p class="modal_feature feature1"></p>
+            <p class="modal_feature feature2"></p>
+            <p class="modal_feature feature3"></p>
+          </div>
+
+          <div class="modal_section">
+            <div class="modal_info">
+              <img src="./images/modal/think.png" alt="modal_solution">
+              <h3>문제 상황 & 해결 과정</h3>
+            </div>
+
+            <!-- 문제 & 해결 1 -->
+            <p class="issue_problem">
+              <span class="problem_text">상황</span>
+              <span class="problem_text02" modal_problem></span>
+            </p>
+            <div class="issue_solution">
+              <img src="./images/modal/curved-arrow.png" alt="modal_arrow">
+              <span class="solution_text">해결</span>
+              <span class="solution_text02" modal_solution></span>
+            </div>
+
+            <!-- 문제 & 해결 2 -->
+            <p class="issue_problem">
+              <span class="problem_text">상황</span>
+              <span class="problem_text02" modal_problem></span>
+            </p>
+            <div class="issue_solution">
+              <img src="./images/modal/curved-arrow.png" alt="modal_arrow">
+              <span class="solution_text">해결</span>
+              <span class="solution_text02" modal_solution></span>
+            </div>
+
+            <!-- 문제 & 해결 3 -->
+            <p class="issue_problem">
+              <span class="problem_text">상황</span>
+              <span class="problem_text02" modal_problem></span>
+            </p>
+            <div class="issue_solution">
+              <img src="./images/modal/curved-arrow.png" alt="modal_arrow">
+              <span class="solution_text">해결</span>
+              <span class="solution_text02" modal_solution></span>
+            </div>
+
+
+            <!-- 느낀점 -->
+            <div class="modal_section">
+              <div class="modal_info">
+                <img src="./images/modal/thought-bubble.png" alt="">
+                <h3>개발 후 느낀점</h3>
+              </div>
+              <p class="modal_review" review>
+              </p>
+            </div>
+        </section>
+        <!-- modal -->
+      </div>
+      <!-- modal_wrap -->
+
+
+      <h1 class="contact_title title" id="contact">
+        Contact
+      </h1>
+      <section class="contact_box">
+        <p class="main_text">
+          함께 일할 기회를 기다리고 있습니다. 감사합니다.
+        </p>
+        <p class="sub_text">
+          함께 이야기 나누고 싶으시다면 아래를 통해 연락 주세요.
+        </p>
+
+        <div class="contact_method">
+          <div class="contact_item">
+            <div class="contact_icon">
+              <img src="./images/phone-call.png" alt="contact_phone">
+            </div>
+            <p class="contact_name">Tel</p>
+            <p class="contact_info">010.4063.2876</p>
+          </div>
+
+          <div class="contact_item">
+            <div class="contact_icon">
+              <img src="./images/email_green.png" alt="contact_email">
+            </div>
+            <p class="contact_name">Email</p>
+            <p class="contact_info">hoony6582@gmail.com</p>
+          </div>
+
+          <div class="contact_item">
+            <div class="contact_icon">
+              <img src="./images/github-green.png" alt="contact_github">
+            </div>
+            <p class="contact_name">GitHub</p>
+            <p class="contact_info">github 주소</p>
+          </div>
+        </div>
+        <!-- contact_method -->
+      </section>
+
+
+      <footer class="footer">
+        <p class="footer_text">Thanks for visiting my portfolio.</p>
+        <p>&copy; 2026 Jonghoon. All rights reserved.</p>
+      </footer>
+
+    </div>
+    <!-- wrap -->
+  </div>
+  <!-- container -->
+
+</body>
+<script>
+  snowFall.snow(document.querySelector(".container"), {
+    image: "./images/snow/snow6.png",
+    minSize: 5,
+    maxSize: 15,
+    flakeCount: 60
+  })
+</script>
+
+</html>

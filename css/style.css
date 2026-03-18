@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+}
+
+/****************** 눈 내리는 효과 *******************/
+.container {
+  height: 100vh;
+  width: 100%;
+  
+}
+
+/********************* fix_box **********************/
+.fix_box {
+  width: 240px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ccc;
+}
+.fix_box .fix_picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto 10px auto;
+}
+.fix_box .fix_picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fix_box .fix_name {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.fix_box .fix_sns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
