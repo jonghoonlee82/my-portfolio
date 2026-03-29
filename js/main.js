@@ -307,6 +307,8 @@ for (let i = 1; i <= 1; i++) { // 최대 1개까지 처리 가능
 });
 
 
+//  -----------------------  tooltip  -----------------------
+
 document.addEventListener("DOMContentLoaded", function () {
 
   const tooltip = document.getElementById("tooltip");

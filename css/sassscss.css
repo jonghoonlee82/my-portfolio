@@ -542,7 +542,8 @@ body {
   margin-left: 40px;
 }
 .modal_wrap .modal .modal_section .modal_desc {
-  line-height: 1.5; /* 16px * 1.5 = 24px */
+  line-height: 1.5;
+  /* 16px * 1.5 = 24px */
   letter-spacing: 0.5px;
 }
 .modal_wrap .modal .modal_section .modal_skills {
@@ -577,7 +578,8 @@ body {
   flex-shrink: 0;
 }
 .modal_wrap .modal .modal_section .issue_problem .problem_text02 {
-  line-height: 1.5; /* 16px * 1.5 = 24px */
+  line-height: 1.5;
+  /* 16px * 1.5 = 24px */
   letter-spacing: 0.5px;
 }
 .modal_wrap .modal .modal_section .issue_solution {
@@ -595,14 +597,16 @@ body {
   flex-shrink: 0;
 }
 .modal_wrap .modal .modal_section .issue_solution .solution_text02 {
-  line-height: 1.5; /* 16px * 1.5 = 24px */
+  line-height: 1.5;
+  /* 16px * 1.5 = 24px */
   letter-spacing: 0.5px;
   margin: 20px 15px 0 0;
   flex-shrink: 1;
   margin-bottom: 50px;
 }
 .modal_wrap .modal .modal_section .modal_review {
-  line-height: 1.5; /* 16px * 1.5 = 24px */
+  line-height: 1.5;
+  /* 16px * 1.5 = 24px */
   letter-spacing: 0.5px;
 }
 .modal_wrap .modal::-webkit-scrollbar {
