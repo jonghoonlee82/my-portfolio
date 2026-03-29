@@ -193,9 +193,9 @@ $(window).scroll(function () {
 // 모달 내용 교체
 $(function () {
 
-  $(".project").click(function () {
+  $(".project_img").click(function () {
 
-    let p = $(this);
+    let p = $(this).closest(".project");
 
     // 기본 정보
     $(".modal_icon").attr("src", p.data("icon"));
@@ -305,4 +305,33 @@ for (let i = 1; i <= 1; i++) { // 최대 1개까지 처리 가능
     }
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const tooltip = document.getElementById("tooltip");
+
+  document.querySelectorAll(".about_icon").forEach(icon => {
+
+    icon.addEventListener("mouseenter", () => {
+      tooltip.textContent = icon.dataset.tooltip;
+      tooltip.style.opacity = 1;
+    });
+
+    icon.addEventListener("mousemove", (e) => {
+      tooltip.style.left = e.clientX + 15 + "px";
+      tooltip.style.top = e.clientY + 15 + "px";
+    });
+
+    icon.addEventListener("mouseleave", () => {
+      tooltip.style.opacity = 0;
+    });
+
+  });
+
+});
+
+
+
+
 

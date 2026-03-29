@@ -16,6 +16,7 @@ img {
 body {
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .wrap {
@@ -100,6 +101,7 @@ body {
 
 /********************* intro_box **********************/
 .intro_box {
+  width: 100%;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -118,6 +120,9 @@ body {
 }
 .intro_box img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #dynamic {
@@ -199,13 +204,27 @@ body {
   align-items: center;
 }
 
+#tooltip {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.2s;
+  z-index: 9999;
+  white-space: nowrap;
+}
+
 .introduction {
   width: 1080px;
   margin: 50px auto 230px auto;
-  padding: 30px;
-  max-width: 800px;
+  padding: 20px;
+  max-width: 900px;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 25px;
   border-left: 3px solid #fff;
   background: rgba(255, 255, 255, 0.03);
   border-radius: 10px;
@@ -236,6 +255,9 @@ body {
 }
 .skill_box .skill .skill_top .icon img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .skill_box .skill .skill_top .skill_name {
   font-size: 25px;
@@ -299,7 +321,7 @@ body {
 .skill_box .skill:hover {
   transform: translateY(-6px);
   border-color: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 0 10px rgba(42, 255, 0, 0.6), 0 0 30px rgba(42, 255, 0, 0.4), 0 0 60px rgba(42, 255, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(42, 255, 0, 0.15), 0 0 6px rgba(42, 255, 0, 0.2), 0 0 12px rgba(42, 255, 0, 0.15);
 }
 
 /********************* project_box **********************/
@@ -312,7 +334,6 @@ body {
   justify-content: flex-start;
 }
 .project_box .project {
-  cursor: pointer;
   transition: transform 0.3s ease;
 }
 .project_box .project .project_img {
@@ -320,9 +341,13 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  cursor: pointer;
 }
 .project_box .project .project_img img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
   transition: 0.5s;
 }
@@ -421,6 +446,9 @@ body {
 }
 .contact_box .contact_icon img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .contact_box .contact_name {
   width: 70px;
@@ -525,6 +553,9 @@ body {
 }
 .modal_wrap .modal .modal_section .modal_skills img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .modal_wrap .modal .modal_section .modal_feature {
   margin-bottom: 5px;
