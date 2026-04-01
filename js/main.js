@@ -1,13 +1,13 @@
 // ------------------ Intro typing animation ------------------
 
 let target = document.querySelector("#dynamic");
-let stringArr = ["프론트엔드 개발자", "Front-End Developer", "UI / UX Developer", "사용자 경험을 만드는 개발자", "Interactive Web Developer"];
+let stringArr = ["프론트엔드 개발자", "Front-End Developer", "UI / UX Developer", "사용자 경험을 만드는 개발자", "디테일로 경험을 완성하는 개발자"];
 let selectString = stringArr[Math.floor(Math.random() * stringArr.length)]
 let selectStringArr = selectString.split("");
 
 function randomString() {
   let target = document.querySelector("#dynamic");
-  let stringArr = ["프론트엔드 개발자", "Front-End Developer", "UI / UX Developer", "사용자 경험을 만드는 개발자", "Interactive Web Developer"];
+  let stringArr = ["프론트엔드 개발자", "Front-End Developer", "UI / UX Developer", "사용자 경험을 만드는 개발자", "디테일로 경험을 완성하는 개발자"];
   let selectString = stringArr[Math.floor(Math.random() * stringArr.length)]
   let selectStringArr = selectString.split("");
 
