@@ -264,6 +264,7 @@ body {
 .about_box .picture {
   width: 400px;
   height: 400px;
+  flex-shrink: 0;
 }
 .about_box .picture img {
   width: 100%;
